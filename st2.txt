@@ -1,0 +1,124 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Swaadisht - Menu</title>
+
+<style>
+
+body {
+    background-color: #6b2e2e;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #2a0f0f;
+}
+
+h1 {
+    margin: 0;
+    color: gold;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.menu-category {
+    background-color: #6b2e2e;
+    border-radius: 10px;
+    width: 300px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+.menu-category h2 {
+    text-align: center;
+    border-bottom: 2px solid gold;
+    padding-bottom: 5px;
+    color: gold;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px dotted #ddd;
+}
+
+.price {
+    color: #ffd700;
+    font-weight: bold;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Welcome to Swaadisht</h1>
+    <p>An Abode of Taste 🍽️</p>
+</header>
+
+<div class="menu">
+
+    <div class="menu-category">
+        <h2>Drinks & Beverages</h2>
+        <div class="menu-item"><span>Mineral Water</span><span class="price">₹20</span></div>
+        <div class="menu-item"><span>Shikanji</span><span class="price">₹40</span></div>
+        <div class="menu-item"><span>Tea</span><span class="price">₹25</span></div>
+        <div class="menu-item"><span>Coffee</span><span class="price">₹40</span></div>
+        <div class="menu-item"><span>Cold Coffee</span><span class="price">₹90</span></div>
+        <div class="menu-item"><span>Mango Juice</span><span class="price">₹80</span></div>
+    </div>
+
+    <div class="menu-category">
+        <h2>Snacks</h2>
+        <div class="menu-item"><span>Chilli Paneer</span><span class="price">₹160</span></div>
+        <div class="menu-item"><span>Chilli Potato</span><span class="price">₹140</span></div>
+        <div class="menu-item"><span>Spring Roll</span><span class="price">₹120</span></div>
+        <div class="menu-item"><span>Manchurian</span><span class="price">₹170</span></div>
+    </div>
+
+    <div class="menu-category">
+        <h2>North Indian</h2>
+        <div class="menu-item"><span>Dal Makhani</span><span class="price">₹220</span></div>
+        <div class="menu-item"><span>Shahi Paneer</span><span class="price">₹260</span></div>
+        <div class="menu-item"><span>Paneer Butter Masala</span><span class="price">₹250</span></div>
+        <div class="menu-item"><span>Malai Kofta</span><span class="price">₹240</span></div>
+    </div>
+
+    <div class="menu-category">
+        <h2>South Indian</h2>
+        <div class="menu-item"><span>Idli Sambhar</span><span class="price">₹90</span></div>
+        <div class="menu-item"><span>Masala Dosa</span><span class="price">₹120</span></div>
+        <div class="menu-item"><span>Rava Dosa</span><span class="price">₹130</span></div>
+        <div class="menu-item"><span>Upma</span><span class="price">₹80</span></div>
+    </div>
+
+    <div class="menu-category">
+        <h2>Italian</h2>
+        <div class="menu-item"><span>Margherita Pizza</span><span class="price">₹220</span>
+        <span>Veg Pizza</span><span class="price">₹250</span>
+        <span>Red Sauce Pasta</span><span class="price">₹180</span>
+        <span>White Sauce Pasta</span><span class="price">₹200</span></div>
+    </div>
+
+</div>
+</body>
+</html>
